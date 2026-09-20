@@ -8,35 +8,39 @@
     <title>Nivetha M - Portfolio</title>
 
     <style>
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            background-color: white;
+            line-height: 1.6;
             color: black;
+            background: white;
         }
 
         header {
             text-align: center;
             padding: 30px;
-        }
-
-        nav {
-            text-align: center;
-            padding: 15px;
-            border-top: 1px solid black;
             border-bottom: 1px solid black;
         }
 
+        header h1 {
+            margin-bottom: 5px;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
         nav a {
-            color: black;
+            margin: 0 10px;
             text-decoration: none;
-            margin: 15px;
+            color: black;
         }
 
         section {
-            width: 80%;
+            max-width: 900px;
             margin: 30px auto;
+            padding: 0 20px;
         }
 
         h2 {
@@ -44,8 +48,23 @@
             padding-bottom: 5px;
         }
 
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #eeeeee;
+        }
+
         li {
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
 
         a {
@@ -56,143 +75,108 @@
             text-align: center;
             border-top: 1px solid black;
             padding: 20px;
-            margin-top: 30px;
+            margin-top: 40px;
         }
+
     </style>
+
 </head>
 
 <body>
 
-    <!-- Header -->
     <header>
 
         <h1>Nivetha M</h1>
 
-        <h3>MCA (Pursuing) | BCA Graduate</h3>
+        <p>MCA (Pursuing) | BCA Graduate</p>
 
-        <p>
-            To build a successful career by creating innovative solutions
-            to real-world challenges.
-        </p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Project</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+        </nav>
 
     </header>
 
 
-    <!-- Navigation -->
-    <nav>
-
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#project">Project</a>
-        <a href="#certifications">Certifications</a>
-        <a href="#contact">Contact</a>
-
-    </nav>
-
-
-    <!-- About -->
     <section id="about">
 
         <h2>About Me</h2>
 
         <p>
-            I am Nivetha M, currently pursuing MCA at St. Joseph's College
-            (Autonomous), Tiruchirappalli. I have completed my BCA from
-            Seethalakshmi Ramaswami College, Tiruchirappalli.
+            I am an MCA student and BCA graduate interested in
+            web development, database management and cloud technologies.
         </p>
+
+        <h3>Vision</h3>
 
         <p>
-            I am interested in web development, cloud technology and
-            learning new technologies.
+            To build a successful career by creating innovative
+            solutions to real-world challenges.
         </p>
 
     </section>
 
 
-    <!-- Education -->
     <section id="education">
 
-        <h2>Education</h2>
+        <h2>Educational Qualification</h2>
 
-        <ul>
+        <table>
 
-            <li>
-                <b>10th</b> – Holy Cross Gr. Hr. Sec. School, Trichy – 67%
-            </li>
+            <tr>
+                <th>Qualification</th>
+                <th>Institution</th>
+                <th>Percentage / CGPA</th>
+            </tr>
 
-            <li>
-                <b>12th</b> – Holy Cross Gr. Hr. Sec. School, Trichy – 68%
-            </li>
+            <tr>
+                <td>10th</td>
+                <td>Holy Cross Girls' Hr. Sec. School, Trichy</td>
+                <td>67%</td>
+            </tr>
 
-            <li>
-                <b>UG – BCA</b> – Seethalakshmi Ramaswami College,
-                Trichy – 75%
-            </li>
+            <tr>
+                <td>12th</td>
+                <td>Holy Cross Girls' Hr. Sec. School, Trichy</td>
+                <td>68%</td>
+            </tr>
 
-            <li>
-                <b>PG – MCA</b> – St. Joseph's College, Tiruchirappalli –
-                Pursuing
-            </li>
+            <tr>
+                <td>UG - BCA</td>
+                <td>Seethalakshmi Ramaswami College, Trichy</td>
+                <td>75%</td>
+            </tr>
 
-        </ul>
+            <tr>
+                <td>PG - MCA</td>
+                <td>St. Joseph's College, Trichy</td>
+                <td>Pursuing</td>
+            </tr>
+
+        </table>
 
     </section>
 
 
-    <!-- Technical Skills -->
     <section id="skills">
 
-        <h2>Technical Skills</h2>
+        <h2>Technical Expertise</h2>
 
         <ul>
-
             <li>HTML</li>
-            <li>MS Office</li>
-            <li>SQL</li>
+            <li>CSS</li>
             <li>PHP</li>
             <li>MySQL</li>
-
+            <li>MS Office</li>
         </ul>
 
     </section>
 
 
-    <!-- Technology Exposure -->
-    <section>
-
-        <h2>Technology Exposure</h2>
-
-        <ul>
-
-            <li>
-                <b>UI/UX Design Internship</b> – RTS Innovation
-            </li>
-
-            <li>
-                <b>Full Stack Development Internship</b> –
-                Astonish Infotech Pvt. Ltd.
-            </li>
-
-            <li>
-                <b>Cloud Technology Workshop</b> – Microsoft Azure,
-                AWS and Cloud Computing
-            </li>
-
-            <li>
-                <b>Database Design</b> – Database schema and relationships
-            </li>
-
-            <li>
-                <b>SQL</b> – SQL queries and data retrieval
-            </li>
-
-        </ul>
-
-    </section>
-
-
-    <!-- Project -->
     <section id="project">
 
         <h2>Mini Project</h2>
@@ -208,115 +192,78 @@
             <b>Technologies:</b> HTML, CSS, PHP and MySQL
         </p>
 
-        <p>
-            The project includes database design, relationships and
-            SQL queries for storing and retrieving data.
-        </p>
+        <ul>
+            <li>Designed database tables</li>
+            <li>Created database relationships</li>
+            <li>Written SQL queries to manage and retrieve data</li>
+        </ul>
 
     </section>
 
 
-    <!-- Certifications -->
     <section id="certifications">
 
         <h2>Certifications</h2>
 
         <ul>
-
-            <li>
-                NPTEL – Soft Skill Development – Score: 60%
-            </li>
-
-            <li>
-                AI Fundamentals & Lifelong Professional Skills –
-                IBM SkillsBuild
-            </li>
-
+            <li>NPTEL - Soft Skill Development (Score: 60%)</li>
+            <li>AI Fundamentals & Lifelong Professional Skills - IBM SkillsBuild</li>
         </ul>
 
     </section>
 
 
-    <!-- Workshop -->
     <section>
 
-        <h2>Workshop</h2>
+        <h2>Exposure to Technologies</h2>
 
-        <h3>Cloud Technology Workshop</h3>
-
-        <p>
-            Attended a One-Day Workshop on Cloud Technology organized by
-            the Department of Computer Science, St. Joseph's College
-            (Autonomous), Tiruchirappalli.
-        </p>
-
-        <p>
-            Gained practical exposure to Cloud Computing, Microsoft Azure
-            and AWS.
-        </p>
+        <ul>
+            <li>UI/UX Design Internship - RTS Innovation</li>
+            <li>Full Stack Development Internship - Aston Infotech Pvt. Ltd.</li>
+            <li>Cloud Technology Workshop - Microsoft Azure and AWS</li>
+        </ul>
 
     </section>
 
 
-    <!-- Strengths -->
     <section>
 
         <h2>Strengths</h2>
 
         <ul>
-
             <li>Teamwork</li>
             <li>Adaptability</li>
             <li>Problem-Solving Skills</li>
             <li>Time Management</li>
-
         </ul>
 
     </section>
 
 
-    <!-- Contact -->
     <section id="contact">
 
         <h2>Contact</h2>
 
-        <p>
-            <b>Phone:</b> 94875 40693
-        </p>
+        <p><b>Phone:</b> 94875 40693</p>
 
-        <p>
-            <b>Email:</b>
-            <a href="mailto:nivethamohan31032005@gmail.com">
-                nivethamohan31032005@gmail.com
-            </a>
-        </p>
+        <p><b>Email:</b> nivethamohan31032005@gmail.com</p>
 
         <p>
             <b>LinkedIn:</b>
-            <a href="http://www.linkedin.com/in/nivetham3103" target="_blank">
-                My LinkedIn Profile
-            </a>
-        </p>
-
-        <p>
-            <b>GitHub:</b>
-            <a href="https://github.com/nivethamohan31032005" target="_blank">
-                My GitHub Profile
+            <a href="https://linkedin.com/in/nivetham3103">
+                linkedin.com/in/nivetham3103
             </a>
         </p>
 
     </section>
 
 
-    <!-- Footer -->
     <footer>
 
-        <p>
-            © 2026 Nivetha M. All Rights Reserved.
-        </p>
+        <p>© 2026 Nivetha M | Student Portfolio</p>
 
     </footer>
 
 </body>
 
-    </html>
+</html>
